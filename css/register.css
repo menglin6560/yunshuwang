@@ -1,0 +1,39 @@
+/*清除内外边距*/
+*{margin: 0;padding: 0;}
+/*设置通用字体大小*/
+body{
+    font-size: 14px;
+}
+/*给整体设置宽高*/
+.register{
+    width:1000px;
+}
+.register>.top{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #C72E2A;;
+}
+.register>.top>div>span{
+    color: #676767;
+    font-weight: bold;
+}
+.register>.top>div>a{
+    color:#C72E2A;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.register>.middle{
+    margin-top: 20px;
+    background-image:linear-gradient(to bottom,#fff,#F6F6F6); 
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+/*清除内外边距*/
+*{margin: 0;padding: 0}
+
+/*设置整体背景*/
+.helper{
+    background-color: #F8F8F8;
+}
+/*设置h3样式*/
+h3{
+    color:#C93838;
+    margin-left:15px;
+    margin-bottom:5px;
+    margin-top: 20px;
+}
+/*设置C1样式*/
+.c1{
+    width: 980px;
+    height: 200px;
+    margin:20px auto;
+}
+.helper_1,.helper_2,.helper_3,.helper_4{
+   width:242px;
+   height:200px;
+   border-left:1px solid #E3E1DE;
+   border-right:1px solid #E3E1DE;
+   float: left;
+}
+/*设置ul的相对位置*/
+.helper ul{
+    padding-left: 20px;
+}
+/*去列表标识项*/
+.helper .c1 ul li{
+    list-style: none;
+}
+
+/*设置字体样式*/
+.helper .c1 ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    height: 26px;
+    line-height: 26px;
+    color: #666;
+    margin-left:10px;
+}
+/*设置鼠标悬停效果*/
+.helper .c1 ul li a:hover{
+    color:#f00;
+}
+/*引入背景图片*/
+.helper_1{
+    background-image:url(../img/helper_1.png);
+}
+.helper_2{
+    background-image:url(../img/helper_2.png);
+}
+.helper_3{
+    background-image:url(../img/helper_3.png);
+}
+.helper_4{
+    background-image:url(../img/helper_4.png);
+}
+/*设置图片显示方式及相对位置*/
+.helper_1,.helper_2,.helper_3,.helper_4{
+    background-repeat:no-repeat;
+    background-position:115px 50px;
+    border:1px solid #E3E1DE;
+ 
+}
+
+
+/*第二层*/
+/*a标签样式*/
+.c2{
+    width: 1100px;
+    height: 200px;
+    margin:0 auto;
+    margin-top: -5px;
+    margin-bottom: -135px;
+   
+}
+.helper>.c2>a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 12px;
+    color: #666; 
+  
+}
+
+/*第三层样式*/
+.c3{
+    width: 1200px;
+    height: 115px;
+    margin: 0 auto;
+    margin-left: 335px;
+}
+.c3>div{
+    float: left;
+    
+}
+.word{
+    margin-left: 20px;
+    text-align: center;
+}
+.c3 .pic{
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+/*设置图片样式*/
+.c3>div img{
+    vertical-align: middle;
+}
+
+/*版权行样式，不可点*/
+.helper>.c3 p{
+    font-size: 10px;
+    color: #666; 
+}
+
+.helper>.c3 a{
+    text-decoration: none;
+    font-size: 10px;
+    color: #666; 
+}

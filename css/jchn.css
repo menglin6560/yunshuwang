@@ -1,0 +1,341 @@
+/*清除内外边距*/
+*{margin: 0;padding: 0;}
+.my_header{
+    width:100%;
+    height: 180px;
+}
+.my_footer{
+    width:100%;
+    height:500px;
+}
+
+/*设置图片样式*/
+.big_pic>img{
+    margin-top:-12px;
+}
+
+/*导航栏nav样式*/
+.nav_top{
+    width:100%;
+    background-color: #be0029;
+    height: 33px;
+}
+.nav_top>ul>li{
+    list-style: none;
+    margin-left:80px;
+}
+.nav_top>ul>li>a{
+    float: left;
+    height: 33px;
+    line-height: 33px;
+    font-size: 18px;
+    font-family: "宋体";
+    color: #fff;
+    width: 124px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.nav_top>ul>li>a:hover{
+    cursor: pointer;
+    background-color: #900926;
+}
+/*设置nav_middle的样式*/
+.nav_middle{
+    background-color: #B31C2A;
+}
+.fenlei,.map,.advertise{
+    float: left;
+}
+/*设置ul样式*/
+.fenlei{
+    margin-left: 80px;
+}
+
+/*设置li的样式*/
+.fenlei>ul>li{
+    list-style: none;
+    width:240px;
+    margin-top:-16px;
+   
+}
+
+.fenlei>ul>li>img{
+    margin-top: 2px;
+    vertical-align: middle;
+}
+
+.fenlei>ul>li>a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #000;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom:3px;
+    margin-left: 10px;
+   
+ 
+}
+.fenlei>ul>li>a:hover{
+    color:#f00;
+}
+/*设置按钮样式*/
+.fenlei>ul>li>.checkall{
+    width:140px;
+    text-align: center;
+   padding-right: 5px;
+   background-color:rgb(224, 212, 212);  
+}
+/*设置右侧广告样式*/
+.advertise>div>a>img{
+    padding-bottom: 10px;
+}
+/*设置推荐F1的样式*/
+.F1>div>a>img{
+     float: left;
+     position: relative;
+     margin-top: 27px;
+}
+/*设置图片样式*/
+.F1>.jchnF1-1>a>img:hover,.F1>.jchnF1-2>a>img:hover,.F1>.jchnF1-3>a>img:hover{
+   top:5px;
+   left:5px;
+}
+/*图片微调*/
+.F1>.jchnF1-1>a>img{
+    margin-left: 85px;
+    
+}
+.F1>.jchnF1-2>a>img{
+    margin-left: 20px;
+}
+.F1>.jchnF1-3>a>img{
+    margin-left: 20px;
+}
+/*设置推荐F2样式*/
+.F2{
+    clear: left;
+}
+/*设置特产推荐样式*/
+.F2 .tctj-logo{
+    height:32px;
+    margin-left: 90px;
+    width: 1195px;
+    border-bottom: 2px solid #f00;
+}
+.F2 .tctj-logo>img{
+    vertical-align: middle;
+    float: left;
+    height: 32px;
+    
+}
+.F2>.tctj>div>a>img{
+    width: 235px;
+    height: 355px;
+    float: left;
+    margin-left:5px;
+}
+.F2>.tctj>.tctj-1{
+    clear: left;
+    margin-left: 85px;
+}
+/*设置热卖特产样式*/  
+.F3{
+    clear:left;
+    padding-top: 15px;
+}
+.rmtc-logo{
+    clear:left;
+    float:left;
+     height:32px;
+     margin-top: 5px;
+     margin-left: 73px;
+ }
+.line{
+    clear:left;
+    margin-left: 77px;
+    width:1185px;
+    border-bottom: 2px solid #000;
+
+}
+ .tj-right{
+     margin-left:800px;
+ }
+.tj-right>ul>li{
+    float:left;
+  
+}
+.tj-right>ul>li{
+    list-style: none;
+   
+}
+.tj-right>ul>li>a{
+    color:#000;
+    text-decoration: none;
+    margin-left:15px ;
+}
+.tj-right>ul>li>a:hover{
+    color:#f00;
+}
+.tj-right>ul>li>span{
+    margin-left:5px;
+}
+/*第一个轮播图样式*/
+.carousel{
+    clear:left;
+    float: left;
+}
+/*轮播左侧导航栏*/
+.carousel-left{
+    width: 190px;
+    height:402px;
+    float: left;
+    background-color:#DEBC6C;
+    margin-left: 77px;
+}
+.carousel-left>ul{
+    text-align: right;
+    margin-top: 35px;
+}
+.carousel-left>ul>li{
+    list-style: none;
+    background: #b39758;
+    line-height: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 46px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.carousel-left>ul>li:hover{
+    background-color: #AD7C0C;
+}
+/*中间轮播图*/
+.carousel-middle{
+    width:550px;
+    height:402px;
+    float: left;
+}
+.carousel-middle .container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.carousel-middle .container>#demo{
+    width:550px;
+    height:402px;
+}
+/* 轮播指示器 */
+.carousel-middle .container .carousel-indicators li{
+    width:12px;
+    height:12px;
+    background-color:#fff;
+    margin-left:6px;
+    margin-right:6px;
+    border-radius:50%;
+}
+.carousel-middle .container .carousel-indicators .active{
+    background-color:#0aa1ed;
+}
+/* 轮播左右箭头的样式 */
+.carousel-middle .container .carousel-control-next,.carousel-control-prev{
+    width:5%;
+    height:15%;
+    background-color:rgba(0,0,0,0.3);
+    top:40%;
+    border-radius:0.25rem;
+}
+/*轮播右侧广告图*/
+.carousel-right{
+    float: left;
+}
+.carousel-right>div>ul{
+    width:460px;
+}
+.carousel-right>div>ul>li{
+    list-style: none;
+    float: left;
+    border:1px solid #555;
+    border-top:0;
+    border-left:0;
+}
+.carousel-right>div>ul>li>a>img{
+    height:192px;
+}
+/*走进河南特色文化*/
+.tswh-logo{
+    clear:left;
+     height:50px;
+     padding-top:20px;
+     margin-left:77px;
+     width: 1200px;
+     border-bottom: 2px solid #000;
+}
+/*设置第一行各个图片具体样式*/
+.pics>div>ul>li{
+    list-style: none; 
+    float:left;
+    position: relative;
+}
+.pics>div>ul>li>a>img{
+    width:190px;
+    height:185px;
+    margin-left: 10px;
+}
+.pics>div>ul>li>a>img:hover{
+    opacity: 0.5;
+}
+.pics>div>ul>li>a>img.one,.pics>div>ul>li>div.first{
+    width:400px;
+    margin-left:77px;
+}
+
+.pics>div>ul>li>div.picmask{
+    position: absolute ;
+    bottom:3px;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    font-size: 22px;
+    text-indent: 10px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+.pics>div>ul>li>div.first{
+    left:0;
+}
+.pics>div>ul>li>div.others{
+    left:10px;
+}
+.pics>div>ul>li>div.picmask>span{
+    font-size:16px;
+}
+/*设置第二行各个图片样式*/
+.pics>div>ul>li>a>img.last,.pics>div>ul>li>div.second{
+    margin-left: 5px;
+    width:405px;
+}
+.pics>div>ul>li>a>img.six,.pics>div>ul>li>div.six{
+    margin-left: 77px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

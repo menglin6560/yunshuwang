@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Mr.Choi
+ * @date    2015-03-11 14:13:25
+ * @version $Id$
+ */
+.xdtc{width:1200px;margin:0 auto;}
+.xdtc .channel{height:35px;background-color:#be0029;}
+.xdtc .channel h2{width:245px;font-size:16px;line-height:35px;vertical-align:middle;text-align:center;color:#fff;}
+.xdtc .fl{width:245px;float:left;}
+.xdtc .zs{width:955px;float:right;}
+.floor1{height:440px;}
+.xdtc .fl li{height:54px;border:1px solid #e2e2e1;border-top:none;position:relative;}
+.xdtc .fl li s{display:block;width:35px;height:35px;background-image:url("tshn_icon.png"/*tpa=http://www.iyunshu.com/templets/default/images/tshn_icon.png*/);position:absolute;top:10px;left:18px;}
+.taiqian .fl li s{background-image:url("taiqian_icon.png"/*tpa=http://www.iyunshu.com/templets/default/images/taiqian_icon.png*/);}
+.xdtc .fl .Cate1 s{background-position:0 0;}
+.xdtc .fl .Cate2 s{background-position:0 -40px;}
+.xdtc .fl .Cate3 s{background-position:0 -80px;}
+.xdtc .fl .Cate4 s{background-position:0 -120px;}
+.xdtc .fl .Cate5 s{background-position:0 -155px;}
+.xdtc .fl .Cate6 s{background-position:0 -190px;}
+.xdtc .fl .Cate7 s{background-position:0 -230px;}
+.xdtc .fl .Cate8 s{background-position:0 -270px;}
+.xdtc .fl li em{font-size:16px;color:#202020;position:absolute;left:75px;top:15px;}
+.floor2 .title{height:45px;border-bottom:1px solid #f85854;position:relative;}
+.floor2 .title s{display:block;width:10px;height:10px;position:absolute;background-color:#f85854;left:15px;top:25px;}
+.floor2 .title h2{font-family:\5FAE\8F6F\96C5\9ED1;font-size:20px;color:#666666;position:absolute;top:15px;left:35px;}
+.floor2 .title p em{display: inline-block;*display: inline;zoom: 1;}
+.floor2 .title p{font-family:\5FAE\8F6F\96C5\9ED1;font-size:14px;color:#666666;position:absolute;top:22px;left:125px;}
+.floor2 .box{height:592px;}
+.floor2 .boxl{width:959px;float:left;}
+.floor2 .boxr{width:240px;float:right;}
+.box td{border:1px solid #e2e2e1;text-align:center;background-color:#fff;padding-top:10px;*padding-top:12px;}
+.box td .fulltitle{display:block;font-size:14px;line-height:1.2;height:35px;overflow:hidden;margin-top:10px;color:#5d5f5e;padding:0 5px;}
+.box .price{line-height:29px;vertical-align:bottom;}
+.box .price del{font-size:16px;color:#979797;margin-left:20px;}
+.box .price strong{font-size:20px;color:#e6262f;}
+.floor2 .boxr a{display:block;height:297px;border-right:1px solid #e2e1e1;border-bottom:1px solid #e2e1e1;}
+.floor2 .boxr a:hover{filter:alpha(opacity=50); -moz-opacity:0.5; opacity: 0.5; _filter:progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=50);display:block;}
+.choi{width:1200px;height:180px;margin-top:20px;position:relative;}
+.choi li{width:400px;float:left;}
+.choi li:hover{filter:alpha(opacity=50); -moz-opacity:0.5; opacity: 0.5; _filter:progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=50);display:block;}
+.choi .prev,.choi .next {display:none;width: 60px; height: 90px; margin-top:-45px;background: url("ad_ctr.png"/*tpa=http://www.iyunshu.com/templets/default/images/ad_ctr.png*/) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; filter:alpha(opacity=20);opacity:0.2;  }
+.choi .prev { left: 0; }
+.choi .next { background-position: 0 -90px; right: 0; }
+.choi .prev:hover,.choi .next:hover { filter:alpha(opacity=50) !important;opacity:0.5 !important;  }
+.floor3 .title,.floor4 .title{ height:40px; background:#f85854; line-height:40px;margin-top:20px;}
+.floor3 .title h2,.floor4 .title h2{font-size:19px; color:#fff; margin-left:10px; font-weight:bold;}
+.floor3 .box{margin-top:10px;}
+.floor3 td .fulltitle{height:16px;}
+.floor3 .tdf{width:400px;padding-top:5px;}
+.floor3 .tdf .picname{display:block;height:380px;margin-top:8px;}
+.floor3 .tdf .fulltitle{height:35px;margin:10px 0 15px;}
+.floor4 .boxl{width:215px;float:left;}
+.floor4 .boxr{width:985px;float:right;}
+.floor4 .boxl .gjc{height:175px;background-color:#f58745}
+.floor4 .boxl .gjc li{width:107px;height:35px;float:left;text-align:center;line-height:35px;vertical-align:middle;}
+.floor4 .boxl .gjc li a{font-size:14px;color:#fff;}
+.floor4 .flash{padding:0;position:relative;}
+.floor4 .tab{ position:relative; z-index:0; }
+.floor4 .tab li{height:250px;}
+.floor4 .tab img { width:588px; height:250px; display: block; }
+.floor4 .prev,.floor4 .next { width: 60px; height: 90px; margin-top:-60px;background: url("ad_ctr.png"/*tpa=http://www.iyunshu.com/templets/default/images/ad_ctr.png*/) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; filter:alpha(opacity=20);opacity:0.2;display:none}
+.floor4 .prev { left: 0; }
+.floor4 .next { background-position: 0 -90px; right: 0;z-index:10000 }
+.floor4 .prev:hover,.mblc .boxrtl .next:hover { filter:alpha(opacity=50) !important;opacity:0.5 !important;}
+.floor4 .controls{position: absolute; top:220px;z-index:1;right:50%;margin-right:-285px;}
+.floor4 .controls li{height: 22px;line-height: 22px;width: 22px;background: none repeat scroll 0 0 #999;border-radius: 12px;color: #fff;cursor:pointer;display: inline-block;margin: 0 2px;text-align: center;float:left;}
+.floor4 .controls .on{background: none repeat scroll 0 0 #e4393c;}
+/*---*/
+.tese_lvyou{ width:1200px; margin:0 auto; margin-top:20px; height:533px; border:1px solid #d6d3d5}
+.tese_lvyou_body_l{ float:left; width:380px; padding:10px;}
+.tese_lvyou_body_l dl dt img{ width:380px; height:380px;}
+.tese_lvyou_body_l dl .title{ font-size:14px; margin-top:20px;height:36px;}
+.tese_lvyou_body_l dl .title a{ color:#393939;}
+.tese_lvyou_body_l dl .price{ padding-top:18px; text-align:center}
+.tese_lvyou_body_l dl  .new_price{ font-size:24px; color:#f81515;}
+.tese_lvyou_body_l dl  .old_price{font-size:14px; color:#393939;margin-left:20px;}
+.tese_lvyou_body_r{ float:left;}
+.tese_lvyou_body_r table { width:800px; height:490px;}
+.tese_lvyou_body_r table tr td{ border-left:1px solid #d6d3d5;border-top:1px solid #d6d3d5;text-align:center;}
+.tese_lvyou_body_r table .cols2 {  height:245px;}
+.tese_lvyou_body_r table .cols2 dl dt{margin-top:10px;}
+.tese_lvyou_body_r table .cols2 dl dt img{ width:380px; height:165px;}
+.tese_lvyou_body_r table .cols2 dl .title{ font-size:14px; margin-top:5px;height:36px;}
+.tese_lvyou_body_r table .cols2 dl .title a{ color:#393939;}
+.tese_lvyou_body_r table .cols2 dl .price{  text-align:center;}
+.tese_lvyou_body_r table .cols2 dl  .new_price{ font-size:24px; color:#f81515;}
+.tese_lvyou_body_r table .cols2 dl  .old_price{font-size:14px; color:#393939;margin-left:20px;}
+.tese_lvyou_body_r table .cols1 dl dt img{ width:175px; height:175px;}
+.tese_lvyou_body_r table .cols1 dl .title{ font-size:14px; margin-top:5px; height:35px;_height:33px;padding:0 5px;overflow:hidden}
+.tese_lvyou_body_r table .cols1 dl .title a{ color:#393939;}
+.tese_lvyou_body_r table .cols1 dl .price{padding:0 5px;}
+.tese_lvyou_body_r table .cols1 dl  .new_price{ font-size:18px; color:#f81515;}
+.tese_lvyou_body_r table .cols1 dl  .old_price{font-size:14px; color:#393939;margin-left:10px;}
+.boaiguan_publish,.teseguan{ width:1200px; margin:0 auto; margin-top:20px; height:290px; border:1px solid #d6d3d5}
+.publish_head{ height:40px; background:#f85854; line-height:40px;}
+.publish_head h1{ font-size:19px; color:#fff; margin-left:10px; font-weight:bold;}
+.boaiguan_publish .publish_body{ height:240px; padding-top:10px;}
+.boaiguan_publish .publish_body_l{ float:left; width:485px; margin-left:30px;}
+.boaiguan_publish .publish_body_r{ float:left;}
+.boaiguan_publish .publish_body_l ul{ font-size:18px; color:#666; list-style:disc; margin-left:10px }
+.boaiguan_publish .publish_body_l ul li{ line-height:1.5; text-align:left}
+.boaiguan_publish .publish_body_r table tr td{ padding:2px}
+.boaiguan_publish .publish_body_r table tr td span{ color:red; margin-right:3px;}
+.teseguan{ height: 500px;margin-bottom:20px;}
+.teseguan_body .teseguan_l{ float:left; padding:20px; width:560px; border-right:1px solid #d6d3d5; height: 420px;}
+.teseguan_body .teseguan_r{ float:left; padding:20px;}
+.teseguan_body .tsg ul li{margin-top:10px; }
+.teseguan_body .tsg ul li dl{width:512px;    }
+.teseguan_body .tsg ul li dl dt{ width:80px; font-size:16px; color:#ff5300; float:left; font-weight:bold; margin-left:20px; text-align:right; }
+.teseguan_body .tsg ul li dl dd{ float:right; font-size:14px; line-height:2; width:370px;  border-bottom:1px solid #d6d3d5; margin-top:-5px; }
+.teseguan_body .tsg ul li dl dd a{ color:#666}
+.teseguan_body .tsg ul li dl dd ul li{ float:left;  margin-right:8px; margin-top:0}
+/*通栏广告修改*/
+.tlad{background-color: #fff;background-position: center center;background-repeat: no-repeat;height: 200px;position: relative;width: 100%;}

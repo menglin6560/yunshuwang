@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family:Microsoft Yahei}
+.tslogo{}
+.w1200{ width:1200px; margin:0 auto}
+.tstop{ background:#b31c2a}
+.nav{ background:#be0029; height:33px;}
+.nav .on{ background:#900926; cursor:pointer}
+.h580{height:580px; }
+.h595{height:595px; }
+.conall{  overflow:hidden;position:relative }
+.navchange{ width: 248px;background:#fff;font-family:"宋体";}
+.navchange a:hover{ color:#CE1E3D; }
+.nav li{ float:left; height:33px; line-height:33px; font-size:18px; font-family:"宋体"; color:#fff; width:124px; font-weight:bold; text-align:center}
+.tsg_fl,.fenlei{padding-top: 10px; position:relative}
+.tsg_fl dl,.tsg_fl dt,.tsg_fl dd{ float:left; font-size:14px; }
+.tsg_fl dt{ width:85px; text-align:center; font-size:16px;}
+.tsg_fl dt a{ color:#202020; line-height:28px}
+.tsg_fl dd{ width:160px; line-height:25px;}
+.tsg_fl dd a{ width:50px; float:left; text-align:center;color:#666666;letter-spacing: 2px;}
+.fenlei li span,.fenlei li a{ float:left}
+.fenlei li a{ padding: 10px; font-size:16px; color:#000; display:inline-block}
+.fenlei li span{ display:inline-block; background:url("fenleitsico1504.jpg"/*tpa=http://www.iyunshu.com/templets/default/images/fenleitsico1504.jpg*/) no-repeat ; height:40px; width:50px; overflow:hidden; margin-right:15px }
+
+.fenlei li span.navicon1{ background-position: 10px -20px}
+.fenlei li span.navicon2{ background-position: 10px -88px}
+.fenlei li span.navicon3{ background-position: 10px -154px}
+.fenlei li span.navicon4{ background-position: 10px -222px}
+.fenlei li span.navicon5{ background-position: 10px -289px}
+.fenlei li span.navicon6{ background-position: 10px -348px}
+.fenlei li span.navicon7{ background-position: 10px -412px}
+.fenlei li span.navicon8{ background-position: 10px -470px}
+.fenlei li span.navicon9{ background-position: 10px -581px;}
+.fenlei li span.navicon10{ background-position: 10px -531px;}
+.fenlei li.navall a{ width:100%; padding:0}
+.xian{ background:url("xiants1504.jpg"/*tpa=http://www.iyunshu.com/templets/default/images/xiants1504.jpg*/) repeat-x center; height:2px; width:230px; margin:0 auto; padding: 2px 0 9px;}
+.navall{ position:absolute; bottom: 10px; height:50px; background:#eeeeee; width:100%; line-height:50px; text-align:center; font-size:16px;}
+.tsg_fl .navall{ bottom:0}
+#dituwrapper{ position:absolute; left:250px; top:0;}
+#ditu{position:absolute; z-index:18; left:0; top:0}
+.guanggao{ position:absolute; right:0; top:0; width:240px}
+.guanggao img{ margin-bottom:20px}
+.nVtips{ position:absolute; z-index:20; width:100px; height:100px; background:#fff}
+.dtxian{ position:absolute; z-index:25; width:210px; background:#fff; padding: 10px;display:none; border:0px solid #900811;  background: rgba(255, 255, 255, 0.811765); font-size:16px; padding-bottom:20px; min-height:40px;  border-radius: 5px;}
+.dtxian a{float:left;text-align:center;margin:0 11px;}
+.anyang{ left:480px; top:65px !important; }
+.sanmenxia{ left: 130px !important;  top: 221px !important;}
+.xinxiang{  top: 143px !important;}
+.hebi{left:450px}
+.xinyang{}
+.puyang{ left:530px; top:60px}
+.xinxiang{ left:427px; top:32px}
+.wrapper{ width:1200px; margin:0 auto; }
+.tsgfloor1 img{ margin-right:7px; width:395px; height:185px; float:left}
+.tsgfloor2{height:400px}
+.tsgfloor2 a{ float:left; }
+.tsgfloor2 img{ width:235px; height:355px; margin-right:6px}
+.mt20{ margin-top:20px}
+.mt10{ margin-top:10px}
+.mt15{ margin-top:15px}
+.tsgfloor1{ height:195px;}
+.fl2tit{ background:url("tsg1504tit1.jpg"/*tpa=http://www.iyunshu.com/templets/default/images/tsg1504tit1.jpg*/) no-repeat; height:32px; border-bottom:2px solid #f85854;}
+.fl3tit{ background:url("tsg1504tit2.jpg"/*tpa=http://www.iyunshu.com/templets/default/images/tsg1504tit2.jpg*/) no-repeat; height:32px; border-bottom:2px solid #333;}
+.fl3tit ul{font-size:16px; margin-right:10px}
+.fl3tit li{ float:left;}
+.fl3tit li.on a{ color:red;-o-transition:all  0ms ease-in-out 0s; -moz-transition:all  0ms ; -webkit-transition:all 0ms ; -ms-transition:all 0ms;}
+.fl3tit li span{ padding:0 10px}
+.fl3con { height:402px}
+.fl3con .fl{ width:740px}
+.fl3con .fr{ width:455px}
+.fl3con .fr li{ float:left; height:200px; border-right:1px solid #e2e1e1;border-bottom:1px solid #e2e1e1; width:226px; text-align:center}
+.conimg img{ width:110px; height:110px}
+ 
+.conimg { margin-top:10px}
+.conimg img{ height:110px;}
+.contit{ width:210px; font-size:14px; margin-top:5px; height: 40px;}
+.conprice{ margin: 0 auto; margin-top:5px; width:200px; font-size:14px;}
+.price_o{ float:left; margin-top:5px;}
+.price_n{ float:right; font-size:18px; color:#D50000}
+
+.adchange .hd{ width:190px;float:left; background:#debc6c;padding-top:30px; height:372px}
+.adchange .bd{width:550px; float:left}
+i{}
+.hd ul{ }
+.hd li{ position:relative;background:#b39758; line-height:30px; height:30px; margin-bottom:10px; margin-left:46px; text-align:center; font-size:16px; color:#fff; cursor:pointer}
+.floor5{ overflow:hidden}
+.hd li.on{ background:#ad7c0c}
+.hd li i{ position:absolute; height: 0;  overflow: hidden;  border-left: 12px solid transparent;  border-top: 7px solid transparent;  border-bottom: 7px solid transparent;right:-11px; top:7px}
+.hd li.on i{ border-left-color:#ad7c0c; }
+.fl4tit{background:url("tsg1504tit3.jpg"/*tpa=http://www.iyunshu.com/templets/default/images/tsg1504tit3.jpg*/) no-repeat; }
+.fl5tit{ background:url("tsg1504tit4.jpg"/*tpa=http://www.iyunshu.com/templets/default/images/tsg1504tit4.jpg*/) no-repeat; height:32px; border-bottom:2px solid #333; margin-bottom:10px}
+.fl5con ul{ width:1250px;}
+.fl5con ul li{ float:left; margin-right:12px; margin-bottom:14px; position:relative;transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;-webkit-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;}
+.fl5con ul li img{ width:190px; height:185px;}
+.fl5con ul li img.long{ width:392px}
+.imgmask{ position:absolute; bottom:0; width:100%; height:42px; line-height:42px;color:#fff; font-size:22px; text-indent:10px; left:0;
+background: rgba(0, 0, 0, 0.5); /* For IE 5.5 - 7*/ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endColorstr=#7F000000); /* For IE 8*/ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endColorstr=#7F000000)"; 
+}
+.imgmask span{font-size:16px;margin-left:5px;}
+.fl5con li:hover{transform: translate(5px,0px);
+-ms-transform: translate(3px,0px);-webkit-transform: translate(3px,0px);-o-transform: translate(3px,0px);	-moz-transform: translate(3px,0px);	}
+
+
+.clearFix:after{
+ clear:both;
+ display:block;
+ visibility:hidden;
+ height:0;
+ line-height:0;
+ content:'';
+
+}
+.tlad {
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+    width: 100%;
+}
+
+
+
+.fr.fl3titnav ul {
+    width: 460px;
+}
